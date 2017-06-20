@@ -13287,6 +13287,14 @@ Make sure to keep track of the various features and conditions you tried before 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer</strong>: 
+What features did you look at? 
+I looked at <strong>Sex, Pclass, Fare and Age</strong></p>
+<p>Were certain features more informative than others? 
+Yes. I used XLSX to sort few columns and observed that Survived column is having more 1's and in some the data is not that clear so I selected <strong>Sex, Pclass, Fare and Age</strong></p>
+<p>Which conditions did you use to split the survival outcomes in the data? 
+For female I used <strong>passenger['Pclass'] &lt; 3</strong> else <strong>passenger['Fare'] &lt; 19 or passenger['Fare'] &gt; 153</strong>
+For male I used <strong>passenger['Age'] &lt; 10 </strong></p>
+<p>How accurate are your predictions?
 <em>Predictions have an accuracy of 81.03%.</em></p>
 
 </div>
